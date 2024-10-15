@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+/* navbar.component.css */
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;base64,..."); /* Base64 encoded SVG or URL for custom icon */
+}
+
+.navbar-dark .navbar-nav .nav-item.active .nav-link,
+.navbar-dark .navbar-nav .nav-item:hover .nav-link {
+  color: #e0e0e0; /* Lighter color for active or hover state */
+}
